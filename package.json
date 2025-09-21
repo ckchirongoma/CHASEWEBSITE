@@ -1,0 +1,21 @@
+{
+  "name": "chasewebsite",
+  "version": "1.0.0",
+  "description": "Chase Continental - Production-grade AI agents that transform your operations",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "preview": "cd frontend && npm run preview",
+    "lint": "cd frontend && npm run lint"
+  },
+  "keywords": [
+    "ai",
+    "automation",
+    "agents",
+    "react",
+    "typescript"
+  ],
+  "author": "Chase Continental",
+  "license": "MIT",
+  "private": true
+}
