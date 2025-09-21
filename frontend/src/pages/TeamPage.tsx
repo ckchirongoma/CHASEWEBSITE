@@ -54,7 +54,7 @@ const TeamPage = () => {
         title="Meet the Leadership Team"
         subtitle="Experienced professionals who turn AI research into production systems that transform business operations."
       />
-      
+
       <Section className="py-20">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
@@ -96,9 +96,9 @@ const TeamPage = () => {
           <p className="text-lg text-gray-600 mb-8">
             Let's discuss how we can help transform your operations with practical AI automation.
           </p>
-          <a 
-            href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call" 
-            target="_blank" 
+          <a
+            href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-[var(--brand-primary)] text-white font-semibold rounded-lg hover:bg-[var(--brand-primary-dark)] transition-colors"
           >

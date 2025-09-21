@@ -62,7 +62,7 @@ const UseCasesPage = () => {
         title="Real Business Transformations"
         subtitle="See how we've helped organizations automate critical workflows and achieve measurable outcomes."
       />
-      
+
       <Stats stats={stats} />
 
       <Section className="py-20">
@@ -84,7 +84,7 @@ const UseCasesPage = () => {
                 <h3 className="text-xl font-semibold mb-2">{useCase.title}</h3>
                 <p className="text-gray-600 leading-relaxed mb-4">{useCase.description}</p>
               </div>
-              
+
               <div className="space-y-3">
                 <div>
                   <h4 className="text-sm font-semibold text-[var(--brand-primary)] mb-2">Industries</h4>
@@ -121,9 +121,9 @@ const UseCasesPage = () => {
           <p className="text-lg text-gray-600 mb-8">
             Every organization has unique challenges. Let's discuss how AI automation can solve your specific problems.
           </p>
-          <a 
-            href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call" 
-            target="_blank" 
+          <a
+            href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-[var(--brand-primary)] text-white font-semibold rounded-lg hover:bg-[var(--brand-primary-dark)] transition-colors"
           >
