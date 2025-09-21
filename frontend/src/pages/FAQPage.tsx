@@ -52,7 +52,7 @@ const FAQPage = () => {
         title="Frequently Asked Questions"
         subtitle="Everything you need to know about our AI automation services and approach."
       />
-      
+
       <Section className="py-20">
         <div className="max-w-4xl mx-auto">
           <div className="space-y-8">
@@ -78,9 +78,9 @@ const FAQPage = () => {
           <p className="text-lg text-gray-600 mb-8">
             We're happy to discuss your specific situation and answer any questions about AI automation for your business.
           </p>
-          <a 
-            href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call" 
-            target="_blank" 
+          <a
+            href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-[var(--brand-primary)] text-white font-semibold rounded-lg hover:bg-[var(--brand-primary-dark)] transition-colors"
           >

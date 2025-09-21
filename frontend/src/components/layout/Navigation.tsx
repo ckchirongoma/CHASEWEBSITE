@@ -25,9 +25,9 @@ const Navigation: React.FC<NavigationProps> = ({ className = '' }) => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img 
-              src="/static/images/chase-continental-header-logo.png" 
-              alt="Chase Continental" 
+            <img
+              src="/static/images/chase-continental-header-logo.png"
+              alt="Chase Continental"
               className="h-8 lg:h-10 w-auto"
             />
           </Link>
@@ -38,17 +38,16 @@ const Navigation: React.FC<NavigationProps> = ({ className = '' }) => {
               <Link
                 key={item.href}
                 to={item.href}
-                className={`text-sm font-medium transition-colors hover:text-[#00B294] ${
-                  isActive(item.href) ? 'text-[#00B294]' : 'text-gray-700'
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-[#00B294] ${isActive(item.href) ? 'text-[#00B294]' : 'text-gray-700'
+                  }`}
               >
                 {item.label}
               </Link>
             ))}
             <Button asChild className="bg-[#00B294] hover:bg-[#00A085] text-white">
-              <a 
-                href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call" 
-                target="_blank" 
+              <a
+                href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 Book Discovery Call

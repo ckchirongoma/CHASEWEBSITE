@@ -31,9 +31,9 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <img 
-              src="/static/images/chase-continental-header-logo.png" 
-              alt="Chase Continental" 
+            <img
+              src="/static/images/chase-continental-header-logo.png"
+              alt="Chase Continental"
               className="h-8 mb-4"
             />
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -47,8 +47,8 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               {footerLinks.company.map((link) => (
                 <li key={link.href}>
-                  <Link 
-                    to={link.href} 
+                  <Link
+                    to={link.href}
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     {link.label}
@@ -64,8 +64,8 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               {footerLinks.resources.map((link) => (
                 <li key={link.href}>
-                  <Link 
-                    to={link.href} 
+                  <Link
+                    to={link.href}
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     {link.label}
@@ -81,8 +81,8 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               {footerLinks.legal.map((link) => (
                 <li key={link.href}>
-                  <Link 
-                    to={link.href} 
+                  <Link
+                    to={link.href}
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     {link.label}

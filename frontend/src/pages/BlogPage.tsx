@@ -40,7 +40,7 @@ const BlogPage = () => {
         title="AI Automation Insights"
         subtitle="Practical guidance on implementing AI automation that delivers real business value."
       />
-      
+
       <Section className="py-20">
         <div className="max-w-4xl mx-auto">
           <div className="space-y-8">
@@ -54,15 +54,15 @@ const BlogPage = () => {
                   <span className="mx-2">•</span>
                   <span>{post.readTime}</span>
                 </div>
-                
+
                 <h2 className="text-2xl font-bold text-[var(--brand-dark)] mb-4">
                   {post.title}
                 </h2>
-                
+
                 <p className="text-gray-600 text-lg mb-6">
                   {post.excerpt}
                 </p>
-                
+
                 <button className="text-[var(--brand-primary)] font-semibold hover:text-[var(--brand-primary-dark)] transition-colors">
                   Read More →
                 </button>
@@ -81,8 +81,8 @@ const BlogPage = () => {
             Get practical insights on AI automation delivered to your inbox.
           </p>
           <div className="max-w-md mx-auto flex gap-4">
-            <input 
-              type="email" 
+            <input
+              type="email"
               placeholder="Enter your email"
               className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
             />

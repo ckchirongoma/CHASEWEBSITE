@@ -9,14 +9,14 @@ const LoginPage = () => {
         title="Start a Project"
         subtitle="Ready to transform your operations? Let's begin with a conversation about your automation needs."
       />
-      
+
       <Section className="py-20">
         <div className="max-w-2xl mx-auto">
           <div className="bg-white border border-gray-200 rounded-lg p-8 shadow-sm">
             <h2 className="text-2xl font-bold text-[var(--brand-dark)] mb-6 text-center">
               Project Inquiry Form
             </h2>
-            
+
             <form className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
@@ -152,9 +152,9 @@ const LoginPage = () => {
               <p className="text-sm text-gray-600 mb-4">
                 Prefer to talk directly?
               </p>
-              <a 
-                href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call" 
-                target="_blank" 
+              <a
+                href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-[var(--brand-primary)] font-semibold hover:text-[var(--brand-primary-dark)] transition-colors"
               >

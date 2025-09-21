@@ -42,7 +42,7 @@ const AboutPage: React.FC = () => {
     },
     {
       name: 'Caleb Sakala',
-      role: 'CTO, Product & Engineering', 
+      role: 'CTO, Product & Engineering',
       bio: 'Full-stack engineer with 5+ years building production AI systems and integrations.',
       longBio: 'Caleb specializes in AI agent architectures and system integrations that actually work in production. He\'s built automation systems for startups and enterprise clients, focusing on reliability, API integrations, and fast prototyping. Before Chase Continental, he led engineering teams and shipped multiple SaaS products.',
       image: '/static/images/team/caleb.jpg'
@@ -65,7 +65,7 @@ const AboutPage: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">Our Values</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            We believe in building AI systems that enhance human capabilities rather than replace them. 
+            We believe in building AI systems that enhance human capabilities rather than replace them.
             Our approach is grounded in practical results and measurable outcomes.
           </p>
         </div>
@@ -86,7 +86,7 @@ const AboutPage: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">Meet the Leadership Team</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Our team combines deep technical expertise with practical business experience to deliver 
+            Our team combines deep technical expertise with practical business experience to deliver
             automation solutions that work in the real world.
           </p>
         </div>

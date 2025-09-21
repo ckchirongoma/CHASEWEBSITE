@@ -38,7 +38,7 @@ const BuilderPage = () => {
         title="Try Our Embedded No-Code Builder"
         subtitle="Built on LazyAI's powerful infrastructure. Hosted by Chase Continental."
       />
-      
+
       <Section className="py-20">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12">
@@ -71,7 +71,7 @@ const BuilderPage = () => {
                     <div className="w-3 h-3 bg-green-400 rounded-full"></div>
                   </div>
                 </div>
-                
+
                 <div className="space-y-4">
                   <div className="h-8 bg-gray-200 rounded animate-pulse"></div>
                   <div className="h-32 bg-gray-200 rounded animate-pulse"></div>
@@ -81,7 +81,7 @@ const BuilderPage = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="text-center mt-6">
                 <p className="text-gray-600 mb-4">Builder interface coming soon</p>
                 <button className="px-6 py-3 bg-[var(--brand-primary)] text-white font-semibold rounded-lg hover:bg-[var(--brand-primary-dark)] transition-colors">
@@ -102,8 +102,8 @@ const BuilderPage = () => {
             Join the waitlist for our no-code AI builder and be among the first to create powerful automation tools.
           </p>
           <div className="max-w-md mx-auto flex gap-4">
-            <input 
-              type="email" 
+            <input
+              type="email"
               placeholder="Enter your email"
               className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[var(--brand-primary)]"
             />

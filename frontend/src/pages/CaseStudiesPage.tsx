@@ -56,7 +56,7 @@ const CaseStudiesPage = () => {
         title="Proven Results in Production"
         subtitle="Real case studies from organizations that have transformed their operations with AI automation."
       />
-      
+
       <Section className="py-20">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {caseStudies.map((study, index) => (
@@ -64,13 +64,13 @@ const CaseStudiesPage = () => {
               <div className="text-3xl mb-4">{study.icon}</div>
               <h3 className="text-xl font-bold text-[var(--brand-dark)] mb-3">{study.title}</h3>
               <p className="text-gray-600 mb-4">{study.description}</p>
-              
+
               <div className="space-y-3">
                 <div>
                   <span className="text-sm font-semibold text-[var(--brand-primary)]">Industry</span>
                   <p className="text-sm text-gray-600">{study.industry}</p>
                 </div>
-                
+
                 <div>
                   <span className="text-sm font-semibold text-[var(--brand-primary)]">Key Results</span>
                   <ul className="text-sm text-gray-600 mt-1">
@@ -96,9 +96,9 @@ const CaseStudiesPage = () => {
           <p className="text-lg text-gray-600 mb-8">
             Join organizations that have transformed their operations with practical AI automation.
           </p>
-          <a 
-            href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call" 
-            target="_blank" 
+          <a
+            href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-[var(--brand-primary)] text-white font-semibold rounded-lg hover:bg-[var(--brand-primary-dark)] transition-colors"
           >

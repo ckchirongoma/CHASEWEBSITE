@@ -55,7 +55,7 @@ const ServicesPage: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">What We Offer</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Our comprehensive service portfolio covers every aspect of AI automation, from initial strategy 
+            Our comprehensive service portfolio covers every aspect of AI automation, from initial strategy
             to production deployment and ongoing optimization.
           </p>
         </div>
@@ -80,7 +80,7 @@ const ServicesPage: React.FC = () => {
             Let's discuss your automation needs and create a custom solution that delivers real results for your business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a 
+            <a
               href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call"
               target="_blank"
               rel="noopener noreferrer"
@@ -88,7 +88,7 @@ const ServicesPage: React.FC = () => {
             >
               Schedule Discovery Call
             </a>
-            <a 
+            <a
               href="/contact"
               className="inline-flex items-center justify-center px-8 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
             >

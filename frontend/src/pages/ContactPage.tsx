@@ -10,7 +10,7 @@ const ContactPage = () => {
         title="Book Discovery Call"
         subtitle="30-minute automation audit and consultation. Let's explore how AI can transform your operations."
       />
-      
+
       <Section className="py-20">
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
@@ -59,16 +59,16 @@ const ContactPage = () => {
               <p className="text-gray-600 mb-6">
                 Book a 30-minute discovery call to explore automation opportunities for your organization.
               </p>
-              
-              <a 
-                href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call" 
-                target="_blank" 
+
+              <a
+                href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block w-full text-center px-8 py-4 bg-[var(--brand-primary)] text-white font-semibold rounded-lg hover:bg-[var(--brand-primary-dark)] transition-colors mb-4"
               >
                 Book Discovery Call
               </a>
-              
+
               <p className="text-sm text-gray-500 text-center">
                 No commitment required. Just a conversation about possibilities.
               </p>

@@ -9,16 +9,16 @@ const PrivacyPage = () => {
         title="Privacy Policy"
         subtitle="How we collect, use, and protect your information."
       />
-      
+
       <Section className="py-20">
         <div className="max-w-4xl mx-auto prose prose-lg">
           <div className="bg-white rounded-lg p-8 shadow-sm">
             <p className="text-sm text-gray-600 mb-8">Last updated: {new Date().toLocaleDateString()}</p>
-            
+
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-[var(--brand-dark)] mb-4">Information We Collect</h2>
               <p className="text-gray-700 mb-4">
-                We collect information you provide directly to us, such as when you contact us, request a consultation, 
+                We collect information you provide directly to us, such as when you contact us, request a consultation,
                 or use our services. This may include:
               </p>
               <ul className="list-disc pl-6 text-gray-700 mb-4">
@@ -44,7 +44,7 @@ const PrivacyPage = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-[var(--brand-dark)] mb-4">Information Sharing</h2>
               <p className="text-gray-700 mb-4">
-                We do not sell, trade, or rent your personal information to third parties. We may share your 
+                We do not sell, trade, or rent your personal information to third parties. We may share your
                 information only in the following circumstances:
               </p>
               <ul className="list-disc pl-6 text-gray-700 mb-4">
@@ -58,8 +58,8 @@ const PrivacyPage = () => {
             <section className="mb-8">
               <h2 className="text-2xl font-bold text-[var(--brand-dark)] mb-4">Data Security</h2>
               <p className="text-gray-700 mb-4">
-                We implement appropriate security measures to protect your personal information against unauthorized 
-                access, alteration, disclosure, or destruction. This includes encryption, access controls, and 
+                We implement appropriate security measures to protect your personal information against unauthorized
+                access, alteration, disclosure, or destruction. This includes encryption, access controls, and
                 regular security assessments.
               </p>
             </section>

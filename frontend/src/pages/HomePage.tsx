@@ -69,7 +69,7 @@ const HomePage: React.FC = () => {
             Why Choose Chase Continental?
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            We don't just build AI tools—we create complete automation systems that transform how your business operates. 
+            We don't just build AI tools—we create complete automation systems that transform how your business operates.
             From initial process mapping to production deployment, we deliver results you can measure.
           </p>
         </div>
@@ -95,12 +95,12 @@ const HomePage: React.FC = () => {
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Let's discuss how AI automation can streamline your processes and deliver measurable results for your business.
           </p>
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             className="bg-[#00B294] hover:bg-[#00A085] text-white px-8 py-3"
             asChild
           >
-            <a 
+            <a
               href="https://calendly.com/charles-chasecontinental/chase-continental-discovery-call"
               target="_blank"
               rel="noopener noreferrer"

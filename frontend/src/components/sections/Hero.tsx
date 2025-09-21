@@ -58,44 +58,41 @@ const Hero: React.FC<HeroProps> = ({
   return (
     <section className={`relative pt-20 lg:pt-24 pb-16 lg:pb-20 ${variants[variant]} ${className}`}>
       {variant === 'gradient' && <FloatingElements />}
-      
+
       <div className="container mx-auto px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <h1 className={`text-4xl lg:text-6xl font-bold leading-tight mb-6 ${
-            variant === 'dark' || variant === 'gradient' 
-              ? 'text-white' 
+          <h1 className={`text-4xl lg:text-6xl font-bold leading-tight mb-6 ${variant === 'dark' || variant === 'gradient'
+              ? 'text-white'
               : 'text-gray-900'
-          }`}>
+            }`}>
             {title}
           </h1>
-          
+
           {subtitle && (
             <div className="mb-6">
-              <span className={`inline-block px-4 py-2 rounded-full text-sm font-medium ${
-                variant === 'dark' || variant === 'gradient' 
-                  ? 'bg-[#00B294]/20 text-[#00B294]' 
+              <span className={`inline-block px-4 py-2 rounded-full text-sm font-medium ${variant === 'dark' || variant === 'gradient'
+                  ? 'bg-[#00B294]/20 text-[#00B294]'
                   : 'bg-[#00B294]/10 text-[#00B294]'
-              }`}>
+                }`}>
                 {subtitle}
               </span>
             </div>
           )}
-          
+
           {description && (
-            <p className={`text-lg lg:text-xl mb-8 max-w-3xl mx-auto ${
-              variant === 'dark' || variant === 'gradient' 
-                ? 'text-gray-300' 
+            <p className={`text-lg lg:text-xl mb-8 max-w-3xl mx-auto ${variant === 'dark' || variant === 'gradient'
+                ? 'text-gray-300'
                 : 'text-gray-600'
-            }`}>
+              }`}>
               {description}
             </p>
           )}
-          
+
           {(primaryCta || secondaryCta) && (
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               {primaryCta && (
-                <Button 
-                  size="lg" 
+                <Button
+                  size="lg"
                   className="bg-[#00B294] hover:bg-[#00A085] text-white px-8 py-3"
                   asChild
                 >
@@ -110,11 +107,11 @@ const Hero: React.FC<HeroProps> = ({
                   )}
                 </Button>
               )}
-              
+
               {secondaryCta && (
-                <Button 
-                  variant="outline" 
-                  size="lg" 
+                <Button
+                  variant="outline"
+                  size="lg"
                   className="px-8 py-3"
                   asChild
                 >

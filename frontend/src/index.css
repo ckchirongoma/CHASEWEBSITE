@@ -4,14 +4,21 @@
 /* To change the color scheme, update these brand color variables */
 :root {
   /* Chase Continental Brand Colors - Update these to change the entire theme */
-  --brand-primary: #00B294;     /* Teal - Main brand color */
-  --brand-primary-dark: #00A085; /* Darker teal for hovers */
-  --brand-secondary: #FFB703;   /* Gold/Yellow - Secondary brand color */
-  --brand-dark: #0B1320;        /* Navy - Dark background/text */
-  --brand-neutral: #6B7280;     /* Gray - Muted text */
-  --brand-light: #E6EEF4;       /* Light gray - Backgrounds */
-  --brand-surface: #FFFFFF;     /* White - Card backgrounds */
-  
+  --brand-primary: #00B294;
+  /* Teal - Main brand color */
+  --brand-primary-dark: #00A085;
+  /* Darker teal for hovers */
+  --brand-secondary: #FFB703;
+  /* Gold/Yellow - Secondary brand color */
+  --brand-dark: #0B1320;
+  /* Navy - Dark background/text */
+  --brand-neutral: #6B7280;
+  /* Gray - Muted text */
+  --brand-light: #E6EEF4;
+  /* Light gray - Backgrounds */
+  --brand-surface: #FFFFFF;
+  /* White - Card backgrounds */
+
   /* Derived colors from brand palette */
   --brand-primary-rgb: 0, 178, 148;
   --brand-secondary-rgb: 255, 183, 3;
@@ -20,13 +27,27 @@
 
 /* Custom animations for floating elements */
 @keyframes float {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-20px) rotate(5deg); }
+
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
 }
 
 @keyframes float-delayed {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-15px) rotate(-3deg); }
+
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-15px) rotate(-3deg);
+  }
 }
 
 .animate-float {
@@ -189,6 +210,7 @@ html {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
