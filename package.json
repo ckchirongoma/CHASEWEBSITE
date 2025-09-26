@@ -4,9 +4,10 @@
   "description": "Chase Continental - Production-grade AI agents that transform your operations",
   "scripts": {
     "dev": "cd frontend && npm run dev",
-    "build": "cd frontend && npm run build",
+    "build": "cd frontend && npm run build && cp -r frontend/dist .",
     "preview": "cd frontend && npm run preview",
-    "lint": "cd frontend && npm run lint"
+    "lint": "cd frontend && npm run lint",
+    "deploy": "npm run build && npx wrangler deploy"
   },
   "keywords": [
     "ai",
