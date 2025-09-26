@@ -99,6 +99,10 @@ const ContactPage = () => {
               {
                 q: "Do you work with small businesses?",
                 a: "Yes. We work with organizations of all sizes, from startups to enterprises. Solutions are tailored to your scale and budget."
+              },
+              {
+                q: "What if we don't have digital systems in place?",
+                a: "Perfect! We specialize in digital transformation - taking organizations from paper-based processes to cloud systems, then automating with AI. We build the foundation first, then add intelligence."
               }
             ].map((faq, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm">

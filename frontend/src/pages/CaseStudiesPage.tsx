@@ -1,23 +1,22 @@
 import Layout from '@/components/layout/Layout';
 import Hero from '@/components/sections/Hero';
 import Section from '@/components/layout/Section';
-import FeatureCard from '@/components/ui/FeatureCard';
 import { Building, Leaf, Building2, Settings, Smartphone, Hospital } from 'lucide-react';
 
 const CaseStudiesPage = () => {
   const caseStudies = [
     {
-      title: "CCID Research Automation",
-      description: "Transformed urban research processes with AI-driven data collection and analysis systems.",
+      title: "CCID Digital Transformation",
+      description: "Complete digital transformation from paper-based processes to cloud automation with hybrid teams of 2 people + 7 AI agents running full operations that inform smart city decisions.",
       icon: <Building size={32} />,
-      metrics: ["80% faster research", "24/7 data processing", "Improved accuracy"],
+      metrics: ["Paper → Cloud → Automated", "2 people + 7 agents", "Smart city insights"],
       industry: "Government & Urban Planning"
     },
     {
       title: "Heineken Sustainability Tracking",
       description: "Real-time environmental impact monitoring across global manufacturing operations.",
       icon: <Leaf size={32} />,
-      metrics: ["Real-time dashboards", "Automated compliance", "Cost savings"],
+      metrics: ["Real-time dashboards", "Automated compliance", "Value chain optimized"],
       industry: "Manufacturing & Consumer Goods"
     },
     {

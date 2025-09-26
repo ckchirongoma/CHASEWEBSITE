@@ -18,11 +18,11 @@ const TeamMember: React.FC<TeamMemberProps> = ({
 }) => {
   return (
     <Card className={`overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105 ${className}`}>
-      <div className="aspect-square overflow-hidden bg-gray-100">
+      <div className="aspect-square overflow-hidden bg-gray-100 p-4">
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
         />
       </div>
       <CardContent className="p-6">

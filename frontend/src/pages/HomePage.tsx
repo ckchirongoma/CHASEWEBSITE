@@ -49,8 +49,8 @@ const HomePage: React.FC = () => {
             <span className="gradient-text">transform your operations</span> and get your work done.
           </>
         }
-        subtitle="Intelligent technology handles the work, freeing humans for high-value innovation"
-        description="Smart automation transforms business operations through AI systems people actually want to use. We map processes, deploy lightweight agents, and deliver measurable results in production."
+        subtitle="Unlocking Hidden Capacity - Intelligent technology handles the work, freeing humans for high-value innovation"
+        description="From digital transformation to AI automation - we unlock your organization's hidden potential. We map processes, deploy lightweight agents, and deliver measurable results in production."
         primaryCta={{
           text: 'Book Discovery Call',
           href: 'https://calendly.com/charles-chasecontinental/chase-continental-discovery-call',

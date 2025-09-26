@@ -35,16 +35,16 @@ const AboutPage: React.FC = () => {
   const teamMembers = [
     {
       name: 'Charles K. Chirongoma',
-      role: 'CEO, Implementation',
-      bio: 'Management consultant turned implementation lead. I specialise in mapping operations, designing practical AI+automation solutions and leading their delivery into production.',
-      longBio: 'Charles is an economist and management consultant with experience across manufacturing, sustainability (Heineken), property tech (MRI) and public urban management (CCID). He leads implementation and client success — turning research and data into operational systems that scale.',
+      role: 'CEO, Implementation & Consulting',
+      bio: 'Economist and management consultant turned CEO. Leads digital transformation initiatives and specializes in identifying optimal AI applications, process mapping, and business intelligence optimization that drives measurable outcomes.',
+      longBio: 'Charles is an economist and management consultant who leads digital transformation, consulting and implementation at Chase Continental. He excels at applying AI in the right spaces and finding where AI actually works for businesses. His experience spans manufacturing industries (automotive, textiles, fashion, chemicals), property technology as a global implementation consultant for a US-based tech firm serving global clients, sustainability projects focused on data intelligence and ecosystem building that created jobs and optimized waste pipelines, and urban management supporting smart city initiatives and data-driven decision making. He specializes in digital transformation strategy, ETL pipelines, observability, process mapping, business intelligence optimization, and understanding how technology drives business transformation.',
       image: '/static/images/team/charles.jpg'
     },
     {
       name: 'Caleb Sakala',
       role: 'CTO, Product & Engineering',
-      bio: 'Full-stack engineer with 5+ years building production AI systems and integrations.',
-      longBio: 'Caleb specializes in AI agent architectures and system integrations that actually work in production. He\'s built automation systems for startups and enterprise clients, focusing on reliability, API integrations, and fast prototyping. Before Chase Continental, he led engineering teams and shipped multiple SaaS products.',
+      bio: 'Full-stack engineer and early AI mover who heads up product and engineering. Led multiple engineering teams, shipped multiple SaaS products, and built platforms competing against Lovable.',
+      longBio: 'Caleb heads up product and engineering at Chase Continental, providing the technical expertise to execute Charles\'s strategic AI applications. He\'s consistently been an early mover in the AI space, having built agent builder platforms (including Escalator), app/software platform builders competing against platforms like Lovable, and numerous AI solutions across multiple AI startups. He\'s led multiple engineering teams and shipped multiple SaaS products at various startups. He specializes in AI agent architectures, system integrations, and turning AI strategy into production-grade systems that actually work in real business environments.',
       image: '/static/images/team/caleb.jpg'
     }
   ]
@@ -52,8 +52,8 @@ const AboutPage: React.FC = () => {
   return (
     <Layout>
       <Hero
-        title="Practical AI for Real Business Transformation"
-        description="Chase Continental helps organisations transform through practical AI. We don't sell hype — we map processes, prototype quickly, and ship production systems that run reliably."
+        title="Unlocking Hidden Capacity Through Digital Transformation"
+        description="Chase Continental unlocks your organization's hidden potential through digital transformation and practical AI. We transform paper-based processes to cloud systems, then automate with hybrid teams that deliver measurable results."
         variant="dark"
       />
 

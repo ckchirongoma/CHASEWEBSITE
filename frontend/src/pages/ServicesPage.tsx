@@ -3,10 +3,15 @@ import Layout from '@/components/layout/Layout'
 import Hero from '@/components/sections/Hero'
 import Section from '@/components/layout/Section'
 import FeatureCard from '@/components/ui/FeatureCard'
-import { Search, Bot, Settings, BarChart, Rocket, TrendingUp } from 'lucide-react'
+import { Search, Bot, Settings, BarChart, Rocket, TrendingUp, Cloud } from 'lucide-react'
 
 const ServicesPage: React.FC = () => {
   const services = [
+    {
+      icon: <Cloud size={32} />,
+      title: 'Digital Transformation',
+      description: 'Modernize legacy systems, migrate to cloud, and build digital foundations that enable AI automation. Transform paper-based processes into intelligent operations.'
+    },
     {
       icon: <Search size={32} />,
       title: 'Process Analysis & Mapping',
@@ -42,8 +47,8 @@ const ServicesPage: React.FC = () => {
   return (
     <Layout>
       <Hero
-        title="Comprehensive AI Automation Services"
-        description="From initial consultation to full deployment and ongoing support, we provide end-to-end AI automation solutions that transform your business operations."
+        title="Unlocking Hidden Capacity"
+        description="From digital transformation to AI automation - we provide end-to-end solutions that unlock your organization's hidden potential and transform business operations."
         primaryCta={{
           text: 'Get Started Today',
           href: 'https://calendly.com/charles-chasecontinental/chase-continental-discovery-call',

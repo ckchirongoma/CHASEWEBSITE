@@ -7,28 +7,28 @@ const BlogPage = () => {
     {
       title: "The Future of AI in Business Automation",
       excerpt: "How organizations are moving beyond prototypes to production-ready AI systems that deliver real value.",
-      date: "2024-03-15",
+      date: "2025-10-15",
       category: "AI Strategy",
       readTime: "5 min read"
     },
     {
       title: "Building Production-Grade AI Agents",
       excerpt: "Key considerations for deploying AI systems that work reliably in real business environments.",
-      date: "2024-03-10",
+      date: "2025-10-12",
       category: "Implementation",
       readTime: "7 min read"
     },
     {
       title: "Measuring ROI from AI Automation",
       excerpt: "How to calculate and track the real business impact of your AI automation initiatives.",
-      date: "2024-03-05",
+      date: "2025-10-08",
       category: "Business Value",
       readTime: "6 min read"
     },
     {
       title: "Common AI Implementation Mistakes",
       excerpt: "Lessons learned from dozens of AI projects and how to avoid the most costly pitfalls.",
-      date: "2024-02-28",
+      date: "2025-10-05",
       category: "Best Practices",
       readTime: "8 min read"
     }

@@ -28,7 +28,7 @@ const Navigation: React.FC<NavigationProps> = ({ className = '' }) => {
             <img
               src="/static/images/chase-continental-header-logo.png"
               alt="Chase Continental"
-              className="h-8 lg:h-10 w-auto"
+              className="h-14 lg:h-18 w-auto"
             />
           </Link>
 
